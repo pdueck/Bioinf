@@ -8,8 +8,10 @@ with python 2.7+ or 3.4+.
 It prints the id and percent GC for each record of a fasta file.
 
 **Example:**
+
 ![Example screenshot](https://github.com/pdueck/Bioinf/blob/master/example_screenshot.jpg "Example")
-Bioinf/example_screenshot.jpg
+
+
 It assumes each id has one space, and replaces that with an underscore.
 
 The script wraps biopython code. http://biopython.org/wiki/Biopython

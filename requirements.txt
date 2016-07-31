@@ -1,0 +1,2 @@
+biopython==1.67
+plac==0.9.6

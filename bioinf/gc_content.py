@@ -53,20 +53,22 @@ def main(filename):
     Assumes each id has one space, and replaces that with an underscore.
     The output is text, formatted as CSV.
 
-    Example input:
-    --------------
-    >poplar 1 fwd primer for X
-    GGACAGCTTATGCAGACCGGGAATGACGTGGGAGTCACATCTGTTAACCCTAA
-    >poplar 2 rev primer for X
-    CTAAACCCTAAACCCTAAACCCTAAACCCTAAACCCTAAACCCT
-    ...
+    Input:
+
+      >poplar 1 fwd primer for X
+      GGACAGCTTATGCAGACCGGGAATGACGTGGGAGTCACATCTGTTAACCCTAA
+      >poplar 2 rev primer for X
+      CTAAACCCTAAACCCTAAACCCTAAACCCTAAACCCTAAACCCT
+      ...
+      ...
 
     Output:
-    --------------
-    poplar_1, 50.943396
-    poplar_2, 43.181818
-    poplar_3, 46.268657
-    ...
+  
+      poplar_1, 50.943396
+      poplar_2, 43.181818
+      poplar_3, 46.268657
+      ...
+      ...
 
     To save output to file:
 
